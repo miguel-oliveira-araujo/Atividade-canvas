@@ -1,2 +1,0 @@
-# Atividade-canvas
-atividade canvas
