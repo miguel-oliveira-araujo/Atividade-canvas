@@ -23,7 +23,7 @@ varias vezes pra cada desenho (Tinhamos feito isso antes). Criamos outra const p
   ## Circulo e Curva
   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Codificamos depois, o circulo:<br>
-  - ctx.beginPath()<br>
+ - ctx.beginPath()<br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aqui vamos definir quando comecou o caminho do desenho, ou quando vamos reinicia-lo. Caso voce não tenha nada antes do desenho, ele ficará igual com ou sem o beginPath. Mas, nesse caso temos,então temos que utiliza-lo<br>
 - ctx.arc()
 > 📝 **Observacão:** Vale lembrar que o "ctx" nos comandos acima e abaixo, sao somente exemplos. Ja que eles sao variaveis e por isso podem ser qualquer outra coisa. <br>
@@ -45,13 +45,13 @@ varias vezes pra cada desenho (Tinhamos feito isso antes). Criamos outra const p
  
  ## Imagem <br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aqui nos criamos uma pasta para imagens (img), e em seguida pegamos uma imagem da internet. Depois criamos uma var  (imagem). Aqui e necessario utilizar tambem uma function()<br>
-  - new Image() <br>
+   - new Image() <br>
    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aqui definimos que criamos um novo elemento do tipo img.<br>
    - imagem.onLoad=function() <br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nesta secao do codígo estamos dizendo que a var imagem vai carregar pela function.<br>
-    - ctx.drawImage() <br>
+  - ctx.drawImage() <br>
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Isso decide como o canvas vai colocar a imagem no site. Os valores dentro do parenteses são:Onde esta a imagem que estamos definindo;Largura e Altura.<br>
-     - imagem.src = "pasta/imagem" <br>
+ - imagem.src = "pasta/imagem" <br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metódo para o codígo achar onde esta sua imagem.
   
   
