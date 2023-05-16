@@ -53,6 +53,11 @@ varias vezes pra cada desenho (Tinhamos feito isso antes). Criamos outra const p
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Isso decide como o canvas vai colocar a imagem no site. Os valores dentro do parenteses são:Onde esta a imagem que estamos definindo;Largura e Altura.<br>
  - imagem.src = "pasta/imagem" <br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Metódo para o codígo achar onde esta sua imagem.
+      
+      ## Print do Site
+      
+      ![image](https://github.com/miguel-oliveira-araujo/Atividade-canvas/assets/127852225/a547a055-dc20-4c58-bdf5-696096078ad9)
+
   
   
  
